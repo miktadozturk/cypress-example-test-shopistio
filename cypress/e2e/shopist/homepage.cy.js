@@ -7,7 +7,6 @@ describe('Shopist example test', () => {
             cy.viewport(viewportSizeChecks)
             cy.log('Mobile viewport for: ' + viewportSizeChecks)        
             homePage.navigate()
-            //normalde burada cy.visit('/') olacak
             cy.title().should('eq', 'Shop.ist') 
             cy.url().should('include','shopist')
         })

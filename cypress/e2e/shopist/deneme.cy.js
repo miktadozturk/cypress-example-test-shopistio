@@ -1,5 +1,5 @@
-describe("deneme", () => {
-it("tests deneme", () => {
+describe("cypress studio", () => {
+it("tests with cypress studio", () => {
   cy.viewport(1404, 937);
 
   cy.visit("https://www.shopist.io/");
